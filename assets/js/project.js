@@ -156,7 +156,7 @@ function sizeChk(){
                 stagger:{
                     each:.7
                 },
-                ease:"power1.inOut"
+                ease:"power1.out"
             },'a+=1')
         })
         
