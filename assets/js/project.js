@@ -24,13 +24,12 @@ $('.header .group-top .logo a .name-wrap .name2').on('animationend', function() 
 });
 
 $('.header .group-top .btn-menu').click(function(){
-
     $('.header .group-mobile').toggleClass('on');
     $('.header.style2 .group-top').toggleClass('on');
 
     const headerHeight = $('.header .group-top').innerHeight();
     $('.header .group-mobile').css('--top', headerHeight + 'px');
-    
+
     $('body').toggleClass('hidden');
     $('.header .group-top .btn-menu').toggleClass('on');
     if ($('body').hasClass('hidden')) {
@@ -39,6 +38,21 @@ $('.header .group-top .btn-menu').click(function(){
         lenis.start();
     }
 })
+
+$(window).resize(function(){
+    sizeChk2();
+})
+sizeChk2();
+
+function sizeChk2(){
+    if ($(window).width()>768) {
+        $('.header .group-mobile').removeClass('on');
+        $('.header.style2 .group-top').removeClass('on');
+        $('.header .group-top .btn-menu').removeClass('on');
+        $('body').removeClass('hidden');
+        lenis.start();
+    }
+}
 
 
 const paginationSlide = new Swiper(".pagination-slide", {
