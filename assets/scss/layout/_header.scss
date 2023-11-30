@@ -181,7 +181,7 @@
     .group-top{
         background: unset;
         padding-bottom: 0;
-        &.on{
+        @include mobile{
             padding-bottom: 6rem;
         }
     }
