@@ -25,6 +25,7 @@ $('.header .group-top .logo a .name-wrap .name2').on('animationend', function() 
 
 $('.header .group-top .btn-menu').click(function(){
     $('.header .group-mobile').toggleClass('on');
+    $('.header.style2 .group-top').toggleClass('on');
     $('body').toggleClass('hidden');
     $('.header .group-top .btn-menu').toggleClass('on');
     if ($('body').hasClass('hidden')) {

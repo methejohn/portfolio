@@ -180,7 +180,10 @@
     z-index: 2;
     .group-top{
         background: unset;
-        // padding-bottom: 0;
+        padding-bottom: 0;
+        &.on{
+            padding-bottom: 6rem;
+        }
     }
 }
 
