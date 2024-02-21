@@ -99,8 +99,8 @@ function getProjectTitle(slideIndex) {
         "Seoul City Hall",
         "Naver",
     ];
-
     return titles[slideIndex];
+
 }
 
 projectSlide.controller.control = paginationSlide;

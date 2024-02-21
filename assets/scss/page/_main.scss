@@ -271,7 +271,7 @@
     
             }
             .project.style3{
-                background: #fff;            
+                // background: #fff;            
             }
             .project.style2{
                 background: #000;
@@ -362,7 +362,7 @@
         letter-spacing: .04em;
         @include tablet{
             font-size: 0.875rem;
-        line-height: 1.28;
+            line-height: 1.28;
         }
     }
 }
