@@ -1,7 +1,7 @@
 .main{}
 .sc-project{
     .group-intro{
-        height: 150vh;
+        height: 150dvh;
         z-index: 1;
         position: relative;
         .sticky-intro{
@@ -12,11 +12,11 @@
                 position: absolute;
                 top: 0;left: 0;
                 width: 100%;
-                height: 100vh;
+                height: 100dvh;
                 .video{
                     aspect-ratio: 1.7777777777778/1;
                     width: 100%;
-                    height: 100vh;
+                    height: 100dvh;
                     video{
                         width: 100%;
                         height: 100%;
@@ -53,9 +53,9 @@
         }
     }
     .group-project{
-        height: 500vh;
+        height: 500dvh;
         .sticky-project{
-            height: 100vh;
+            height: 100dvh;
             position: sticky;
             top: 0;
             .project{
@@ -68,7 +68,7 @@
                 .container{
                     position: absolute;
                     width: 100%;
-                    height: 100vh;
+                    height: 100dvh;
                     top: 0;
                     left: 0;
                     a{
@@ -376,7 +376,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 4rem;
-    min-height: 100vh;
+    min-height: 100dvh;
     background-color: #f2f1ef;
     position: relative;
     
