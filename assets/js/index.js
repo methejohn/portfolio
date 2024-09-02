@@ -102,6 +102,8 @@ projectTl
     bottom:'100%'})
 .to('.sc-project .group-project .sticky-project .p4',{
     bottom:'100%'})
+.to('.sc-project .group-project .sticky-project .p5',{
+    bottom:'100%'})
 
 
 $('.sc-project').mousemove(function(e){
@@ -205,8 +207,3 @@ ScrollTrigger.batch("[data-batch]", {
         $(batch).addClass('on');
     },
 });
-
-
-
-
-

@@ -91,6 +91,7 @@ projectSlide.on('slideChange',function(){
 
 function getProjectTitle(slideIndex) {
     const titles = [
+        "Design Idea",
         "EQL",
         "Enterprise Blockchain",
         "40 Wonders",
