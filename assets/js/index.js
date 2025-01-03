@@ -9,12 +9,13 @@ function lenisStart() {
   gsap.ticker.lagSmoothing(0);
 }
 
-lenisStart();
+
 
 // Load
 window.addEventListener('load', () => {
   document.body.classList.add('loaded');
   handleResize();
+  lenisStart();
 });
 
 // Mouseover
