@@ -29,7 +29,7 @@
           }
         }
         .text-wrap {
-          font-family: "DegularDisplay";
+          font-family: 'DegularDisplay';
           font-weight: 600;
           line-height: 1.25;
           letter-spacing: 0.06em;
@@ -95,7 +95,7 @@
             object-fit: cover;
           }
           h2 {
-            font-family: "DegularDisplay";
+            font-family: 'DegularDisplay';
             font-size: 1rem;
             line-height: 1.25;
             letter-spacing: 0.04em;
@@ -139,7 +139,7 @@
               padding: 0.375rem 1.5rem;
               border: 1px solid;
               border-radius: 240px;
-              font-family: "Boogy Brut Poster", serif;
+              font-family: 'Boogy Brut Poster', serif;
               font-weight: 400;
               font-style: italic;
             }
@@ -168,7 +168,7 @@
             }
           }
           .desc {
-            font-family: "DegularDisplay";
+            font-family: 'DegularDisplay';
             font-size: 1rem;
             line-height: 1.25;
             letter-spacing: 0.04em;
@@ -179,7 +179,7 @@
             }
           }
 
-          [class*="line-"] {
+          [class*='line-'] {
             width: 5.5rem;
             height: 5.5rem;
             position: absolute;
@@ -231,7 +231,7 @@
             }
           }
           .number {
-            font-family: "DegularDisplay";
+            font-family: 'DegularDisplay';
             font-weight: 400;
             font-size: 1rem;
             line-height: 1.25;
@@ -256,7 +256,7 @@
             }
           }
           .text-wrap {
-            font-family: "DegularDisplay", sans-serif;
+            font-family: 'DegularDisplay', sans-serif;
             font-weight: 700;
             font-size: 1rem;
             line-height: 1.25;
@@ -316,6 +316,7 @@
         .container {
           a {
             .flex {
+              mix-blend-mode: difference;
               .headline {
                 white-space: nowrap;
               }
@@ -377,7 +378,7 @@
     position: fixed;
     top: 0;
     left: 27px;
-    font-family: "DegularDisplay", sans-serif;
+    font-family: 'DegularDisplay', sans-serif;
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.25;
@@ -403,7 +404,7 @@
   position: relative;
 
   h2 {
-    font-family: "DegularDisplay", sans-serif;
+    font-family: 'DegularDisplay', sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: 1rem;
@@ -417,7 +418,7 @@
   }
   .group-title {
     text-align: center;
-    font-family: "Boogy Brut Poster", serif;
+    font-family: 'Boogy Brut Poster', serif;
     font-weight: 400;
     font-size: 6rem;
     line-height: 1.1;
@@ -527,7 +528,7 @@
       gap: 1.5rem;
     }
     h2 {
-      font-family: "DegularDisplay", sans-serif;
+      font-family: 'DegularDisplay', sans-serif;
       font-weight: 700;
       font-size: 1rem;
       line-height: 1.25;
@@ -647,7 +648,7 @@
           }
         }
         .number {
-          font-family: "DegularDisplay", sans-serif;
+          font-family: 'DegularDisplay', sans-serif;
           font-weight: 400;
           font-size: 1rem;
           line-height: 1.25;
@@ -663,7 +664,7 @@
         }
         .name2,
         .name {
-          font-family: "Boogy Brut Poster", serif;
+          font-family: 'Boogy Brut Poster', serif;
           font-weight: 400;
           font-size: 5rem;
           line-height: 1.1;
@@ -770,7 +771,7 @@
       padding: 0 1.5rem;
     }
     h2 {
-      font-family: "DegularDisplay", sans-serif;
+      font-family: 'DegularDisplay', sans-serif;
       font-weight: 700;
       font-size: 1rem;
       line-height: 1.25;
@@ -861,7 +862,7 @@
         gap: 1rem;
 
         .category {
-          font-family: "DegularDisplay", sans-serif;
+          font-family: 'DegularDisplay', sans-serif;
           font-weight: 600;
           font-size: 1rem;
           line-height: 1.25;
@@ -875,7 +876,7 @@
 
         h3 {
           .link-title {
-            font-family: "Boogy Brut Poster", serif;
+            font-family: 'Boogy Brut Poster', serif;
             font-weight: 400;
             font-size: 2rem;
             line-height: 1.25;
@@ -937,7 +938,7 @@
     padding: 0 1.5rem;
   }
   h2 {
-    font-family: "DegularDisplay", sans-serif;
+    font-family: 'DegularDisplay', sans-serif;
     font-weight: 600;
     font-size: 1rem;
     line-height: 1.25;
@@ -971,7 +972,7 @@
       overflow: hidden;
       flex-shrink: 0;
       &::after {
-        content: "";
+        content: '';
         position: absolute;
         top: 0;
         left: 0;
@@ -992,12 +993,12 @@
     .swiper-slide {
       height: auto;
       .number {
-        font-family: "DegularDisplay", sans-serif;
+        font-family: 'DegularDisplay', sans-serif;
         font-weight: 400;
         font-size: 1rem;
         line-height: 1.25;
         letter-spacing: 0.04em;
-        font-feature-settings: "tnum";
+        font-feature-settings: 'tnum';
         display: block;
         transform-origin: left bottom;
         transform: rotate(-90deg) translateY(100%);
@@ -1012,13 +1013,13 @@
       align-items: center;
       gap: 1.75rem;
       &::before {
-        content: "";
+        content: '';
         width: 1rem;
         height: 1px;
         background-color: #000;
       }
       .title {
-        font-family: "Boogy Brut Poster", serif;
+        font-family: 'Boogy Brut Poster', serif;
         font-weight: 400;
         font-size: 2rem;
         line-height: 1.25;
@@ -1042,7 +1043,7 @@
     grid-column: 5/13;
     position: relative;
     &::before {
-      content: "";
+      content: '';
       position: absolute;
       top: 0;
       left: 0;
@@ -1087,7 +1088,7 @@
           grid-column-start: calc(var(--offset-mobile) + 1);
         }
         .img,
-        [class*="bg-"] {
+        [class*='bg-'] {
           aspect-ratio: 1.7777777777778;
           background-size: cover;
           background-position: center;
@@ -1172,7 +1173,7 @@
           width: 100%;
           padding: 0 1rem;
           color: #fff;
-          font-family: "DegularDisplay", sans-serif;
+          font-family: 'DegularDisplay', sans-serif;
           letter-spacing: 0.04em;
           font-size: 0.875rem;
           line-height: 1.28;
@@ -1218,7 +1219,7 @@
           color: #fff;
           gap: 0 1rem;
           padding: 0 1rem 1rem;
-          font-family: "DegularDisplay", sans-serif;
+          font-family: 'DegularDisplay', sans-serif;
           font-size: 0.875rem;
           line-height: 1.28;
           letter-spacing: 0.04em;
@@ -1265,7 +1266,7 @@
           gap: 0.2rem 0.5rem;
         }
         .desc {
-          font-family: "DegularDisplay", sans-serif;
+          font-family: 'DegularDisplay', sans-serif;
           font-size: 0.7rem;
           line-height: 1.16;
           letter-spacing: 0.04em;
